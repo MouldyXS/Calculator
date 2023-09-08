@@ -1,0 +1,39 @@
+/* Estilo para el cuadrado */
+
+h1{
+    border-radius: 20%;
+     color: #009688;
+
+
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 0 auto; /* Centrar horizontalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Estilo para los botones */
+.boton {
+    width: 60px;
+    height: 60px;
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #00796b;
+}
